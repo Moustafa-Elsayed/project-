@@ -453,3 +453,30 @@
   align-items: flex-start;
   justify-content: center;
 }
+/* .step .step .step-circle{
+  background-color: #077AB9 !important;
+  border: none !important;
+}
+.step-content span{
+  color: white !important;
+} */
+.steps {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  overflow: hidden;
+  align-items: center;
+  padding-top: 42px;
+}
+
+.step {
+  background-color: #077ab9;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 996px) {
+  .steps {
+    display: none;
+  }
+}
