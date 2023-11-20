@@ -350,3 +350,45 @@
   font-weight: 500;
   line-height: 24px;
 }
+/* start mts */
+.mts-bg {
+  background-image: url("./image//bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.header {
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68.5px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.header.stage {
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68.5px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  display: inline-block;
+}
+.header.stage::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color: rgb(236 0 255 / 25%);
+  position: absolute;
+  bottom: 28px;
+  left: 55px;
+}
