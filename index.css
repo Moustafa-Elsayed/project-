@@ -315,3 +315,25 @@
   font-weight: 700;
   line-height: 68.5px; /* 214.063% */
 }
+.roadmap .tamkeen p {
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  width: 831.75px;
+}
+.roadmap .text span {
+  color: #2db9b0;
+}
+.roadmap .text-content {
+  display: flex;
+}
+
+.roadmap .text-content img {
+  width: 23px;
+  height: 22px;
+  flex-basis: 1;
+}
