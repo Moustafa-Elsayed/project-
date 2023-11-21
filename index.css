@@ -264,3 +264,21 @@
 }
 
 /* end landing */
+/* start roadmap */
+.task-progresss {
+  margin: 1.5rem 0;
+}
+.task-progresss progress {
+  width: 100%;
+}
+.progresss1::-webkit-progress-value {
+  background: #2db9b0;
+}
+
+.connectLin {
+  color: #2db9b0;
+}
+.connect {
+  display: flex;
+  align-items: center;
+}
