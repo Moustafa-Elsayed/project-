@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+.btn-custom {
+  background-color: #35c0b4;
+  border: none;
+  color: white;
+}
+.btn-custom:hover {
+  background-color: #35c0b4;
+}
+.btn-custom-line {
+  border: 1px solid #e6e8ec;
+  background: #fff;
+  color: #35c0b4;
+}
+.btn-custom-line:hover {
+  border: 1px solid #e6e8ec;
+  background: #fff;
+  color: #35c0b4;
+}
+/* start landing */
+.landing {
+  position: relative;
+  gap: 32px;
+  padding-bottom: 50px;
+}
+
+.landing .shape img {
+  position: absolute;
+  top: -83px;
+  right: 0px;
+  z-index: -11111;
+}
+
+.landing .text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.landing .text h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68.5px;
+  width: 100%;
+  max-width: 583px;
+}
+
+.landing .text p {
+  color: #000;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 100%;
+  max-width: 463.374px;
+}
+@media (max-width: 1199px) {
+  .landing .text h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 992px) {
+  .landing .text h1 {
+    font-size: 25px;
+  }
+}
+
+.tamkeen {
+  color: #2db9b0;
+}
+
+.play-btn {
+  background-image: url("../image/play icon.png");
+  width: 48px;
+  height: 48px;
+}
+.border-play {
+  border-radius: 50%;
+  width: 60%;
+  height: 60%;
+  padding: 10px;
+  border: 1px solid rgb(245 199 234);
+}
+
+@media (max-width: 768px) {
+  .landing .shape img {
+    display: none;
+  }
+
+  .landing .text h1 {
+    font-size: 32px;
+    line-height: 48.5px;
+  }
+
+  .landing .text p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+.play-sec {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.play-sec .play-btn {
+  border: 2px solid #fee5d1;
+  border-radius: 50%;
+
+  padding: 8px;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #fee5d1;
+}
+.play-sec p {
+  padding-left: 10px;
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+/* start timer */
+.card-timer {
+  width: 400px;
+  height: 543px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid var(--border-liner, #fee5d1);
+  background: linear-gradient(89deg, #fff 0.89%, #fff 99.22%);
+  box-shadow: 0px 4px 24px -1px rgba(42, 186, 174, 0.09);
+  backdrop-filter: blur(20px);
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .card-timer {
+    width: 350px;
+  }
+}
+.card-bac {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.card-back {
+  position: absolute;
+  right: 37px;
+  top: 17px;
+}
+.btc {
+  color: #2db9b0;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.card-timer .card-body h5 {
+  text-align: center;
+  font-family: Hepta Slab;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #2ec7be;
+  margin-top: 20px;
+  display: flex;
+}
+.card-timer .timer-content {
+  margin-top: 30px;
+  width: 100%;
+  padding: 5px;
+  height: 105px;
+  border-radius: 12px;
+  border: 1px solid #2db9b0;
+  background: #e5f6f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.color {
+  color: #2db9b0;
+}
+.card-timer .timer-content .card-content {
+  width: 84px;
+  height: 72px;
+  border-radius: 8px;
+  background: #333;
+}
+.card-timer .timer-content .card-content h4 {
+  color: #2db9b0;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.card-timer .timer-content .card-content p {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-timer .static {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 16px;
+}
+.card-timer .secStatic {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 20px;
+}
+.card-timer .static-conent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-timer .static-conent h3 {
+  color: #000;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.card-timer .static-conent h3 span {
+  color: #2db9b0;
+}
+.card-timer .static-conent p {
+  color: #878787;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  max-width: 149px;
+}
+
+/* end landing */
