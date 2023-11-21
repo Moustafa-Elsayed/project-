@@ -282,3 +282,36 @@
   display: flex;
   align-items: center;
 }
+.connect:before,
+.connect:after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid #2db9b0;
+  margin: 0 10px;
+}
+
+.connect div,
+.connect span {
+  margin: 0 5px;
+}
+
+/* start roadmap */
+
+.roadmap {
+  background-image: url("./image/Moon1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.roadmap .text {
+  padding-top: 100px;
+}
+.roadmap .text h1 {
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68.5px; /* 214.063% */
+}
