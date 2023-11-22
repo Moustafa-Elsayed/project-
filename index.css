@@ -480,3 +480,89 @@
     display: none;
   }
 }
+.connectingLine {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: green;
+  width: 10.4rem;
+  left: 99%;
+  top: 50%;
+}
+
+.stepsWrapper {
+  position: relative;
+}
+
+.cardsWrapper2 {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+.second-line {
+  margin-left: 308px;
+  max-width: 10%;
+  border: 1px solid blue;
+}
+.singleStep {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #077ab9;
+}
+
+.singleCard {
+  max-width: 144px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  border: 1px solid #2db9b0;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(13.5px);
+}
+.first-letter {
+  color: #2db9b0;
+}
+/* start roadmap */
+.wizard-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #2db9b0;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.step::before {
+  content: "";
+  width: 175px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  right: -463%;
+}
