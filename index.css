@@ -566,3 +566,41 @@
   top: 50%;
   right: -463%;
 }
+@media (max-width: 1198px) {
+  .step::before {
+    right: -325%;
+    width: 121px;
+  }
+}
+@media (max-width: 991px) {
+  .step::before {
+    right: -208%;
+    width: 78px;
+  }
+}
+@media (max-width: 500px) {
+  .wizard-container {
+    display: none;
+  }
+}
+
+.step.dotted::before {
+  border: 3px dotted #ccc;
+}
+.mark {
+  background-color: transparent;
+  color: white;
+  font-size: 28px;
+}
+.step:last-child::before {
+  display: none;
+}
+
+.step.active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.step.active::before {
+  background-color: #2db9b0;
+}
