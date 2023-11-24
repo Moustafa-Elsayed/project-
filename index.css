@@ -808,3 +808,45 @@
 .task-progress progress {
   width: 100%;
 }
+/* start Partners */
+.Partners {
+  background-image: url("./image/bglast.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 57px;
+}
+.last {
+  background-image: url("./image/last.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #fee5d1;
+}
+.last .last-div {
+  color: #1e1e1e;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 131.25% */
+}
+.last .last-div span {
+  color: #02e4d1;
+}
+.last .last-p {
+  color: #000;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+ .lastbtn{
+  width: 22%;
+}
+@media (max-width:769px){
+  .lastbtn{
+    width: auto; }
+}
