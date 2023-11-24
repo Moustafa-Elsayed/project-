@@ -850,3 +850,33 @@
   .lastbtn{
     width: auto; }
 }
+.dount {
+  position: relative;
+}
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.text-ro {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.text-ro p {
+  width: 449px;
+  color: #3d3d3d;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+.circle-right {
+  border-right: 2px dashed #d9d9d9;
+}
