@@ -880,3 +880,146 @@
 .circle-right {
   border-right: 2px dashed #d9d9d9;
 }
+.singleRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.singleRowReversed {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSide {
+  flex: 0.5;
+}
+.rightSide {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  position: relative;
+}
+.connectcirlceright {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #007bff;
+  display: block;
+  width: 16.4rem;
+  left: 63%;
+  top: 50%;
+}
+.cirloright {
+  content: "";
+  position: absolute;
+  display: block;
+  right: 98%;
+  top: 39%;
+}
+.circle-left {
+  border-left: 2px dashed #d9d9d9;
+}
+.circle {
+  position: relative;
+}
+.connectcirlceleft {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  background-color: #007bff;
+  width: 16.4rem;
+  right: 63%;
+  top: 50%;
+}
+.cirloleft {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 98%;
+  top: 39%;
+}
+.icollright {
+  position: absolute;
+  right: 41%;
+  top: -6px;
+  z-index: -1;
+}
+.icolright {
+  position: absolute;
+  right: 44%;
+  top: 16%;
+  z-index: -1;
+}
+
+.firstTitle {
+  text-align: start;
+  margin-left: 40px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 160% */
+}
+.rightSideReversed {
+  flex: 0.5;
+}
+.firstTitleReversed {
+  margin-right: 40px;
+  text-align: end;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.descInnerReversed {
+  margin-left: 10rem;
+  max-width: 34rem;
+  text-align: right;
+  color: #3d3d3d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.descInner {
+  margin-left: 42px;
+  max-width: 34rem;
+  text-align: left;
+  color: #3d3d3d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.firstDate {
+  position: absolute;
+  top: 26%;
+  right: 47%;
+}
+
+.secDate {
+  position: absolute;
+  top: 43%;
+  right: 48%;
+}
+
+.line {
+  position: absolute;
+  width: 0px;
+  height: 11rem;
+  right: 0%;
+}
+.lineReversed {
+  position: absolute;
+  width: 0px;
+  height: 15rem;
+  left: -0.4%;
+}
